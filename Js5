@@ -1,0 +1,7 @@
+var N = 2, 4, 18, 20, 35, 84;
+findSpecialPrime(N);
+N = 100;
+findSpecialPrime(N);
+
+Output 379
+       233
