@@ -1,0 +1,29 @@
+<div class="show item open-item">
+		<a href="#modal1">
+			<span class="full-link"></span>
+		</a>
+		<img src="http://placekitten.com/400/250" />
+		<div class="pf_content">
+			<h2>Title Card 4</h2>
+			<h3>Description</h3>
+			<span class="pf_viewmore">[ VIEW INFO ]</span>
+		</div>
+	</div>
+
+<div id="modal1" class="modalContent pf_1">
+	<a href="#close" title="Close">
+		<span class="full-link"></span>
+	</a>
+	<div>
+		<a href="#close" title="Close" class="close">[ CLOSE ME ]</a>
+		<div class="modalDesc">
+			<h2>Title Card No 4</h2>
+			<h3>
+				<a><div><img src="http://placekitten.com/400/250" /></div></a>
+			</h3>
+			<p>
+				On Click explore Button will open a popup displaying full information
+			</p>
+		</div>
+	</div>	
+</div>
