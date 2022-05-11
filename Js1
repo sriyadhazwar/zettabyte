@@ -1,0 +1,14 @@
+function findMedian(a, n) {
+  a.sort();
+  if (n % 2 != 0)
+    return a[parseInt(n / 2)];
+
+  return (a[parseInt((n - 1) / 2)] + a[parseInt(n / 2)]) / 2.0;
+}
+
+let a = [8, 7, 7, 9, 5, 4, 2, 9];
+let n = a.length;
+document.write("Median = " + findMedian(a, n));
+
+Output :
+Median = 7
